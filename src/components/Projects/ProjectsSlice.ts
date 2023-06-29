@@ -24,10 +24,16 @@ export const ProjectsSlice = createSlice({
           "SendGrid",
           "Okta",
           "Authorize .NET",
-          "Chargofy",
+          "Chargify",
           "Azure Devops",
           "GitHub",
           "Google Cloud Platform"
+        ],
+        keyFeatures:[
+          "Mapping functionality, built with Leaflet, enables quick and accurate matching of real estate leads with agents, as well as geographically-based reporting and subscription liability management.",
+          "Powerful subscription, customer, and payment management functionality, utilizing integrations with HubSpot, Chargify, and Okta, enables the sales, customer service, and administrative teams to easily create and manage accounts from a single application.",
+          "Deep intergation with legacy products allows serving existing customers, and provides an upgrade path for their accounts.",
+          "Automated, extensitble, reporting system is able to generate PDF and and Excel document, and send alert emails."
         ],
         images: [
           {
@@ -77,6 +83,11 @@ export const ProjectsSlice = createSlice({
           "Azure Devops",
           "GitHub",
           "Google Cloud Platform"
+        ],
+        keyFeatures: [
+          "Custom workflow allows administrative user to approve, and manage, and request documentation about member's transactions.",
+          "Reporting functionality with Excel sheet generation.",
+          "User and account management integrated with Okta."
         ]
       },
       {

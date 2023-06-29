@@ -6,7 +6,7 @@ export const ResumeSlice: Slice = createSlice({
   initialState: {
     workExperiences: [
       {
-        companyTitle: "Reazo",
+        companyTitle: "ClientHub",
         jobTitle: "Principal Software Engineer",
         employmentYears: "2018-2023",
         location: "Missoula, Montana",

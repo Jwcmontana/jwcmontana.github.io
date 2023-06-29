@@ -5,7 +5,6 @@ import HomeHeader from '../Home/HomeHeader';
 import ProjectDetails from '../Projects/views/ProjectDetails';
 import Projects from '../Projects/views/Projects';
 import Resume from '../Resume/Resume';
-import SpaceGame from '../SpaceGame/SpaceGame';
 import './App.css';
 
 function App() {
@@ -38,12 +37,6 @@ function App() {
             technologyExperience={state.resume.technologies}
             objective={state.resume.objective}
           />
-        }
-      />
-      <Route
-        path="/space-game"
-        element={
-          <SpaceGame />
         }
       />
     </Routes>
